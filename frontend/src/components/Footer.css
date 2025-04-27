@@ -1,0 +1,38 @@
+/* Footer styling */
+.footer {
+    background-color: #130f40;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+  
+  /* Ensure Footer stays at the bottom of the page */
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  footer {
+    margin-top: auto; /* Keeps footer at the bottom */
+  }
+  
+  .social-icons a,
+  .footer-nav a {
+    color: #ff7800;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover,
+  .footer-nav a:hover {
+    color: #fff;
+  }
+  

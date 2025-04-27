@@ -1,0 +1,29 @@
+.dashboard-content {
+    padding: 2rem;
+    color: #333;
+  }
+  
+  .profile-info h3 {
+    font-size: 2rem;
+    color: orange;
+    margin: 0;
+  }
+  
+  .profile-info p {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  .settings-option {
+    margin-top: 2rem;
+  }
+  
+  .btn-toggle {
+    padding: 0.5rem 1rem;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

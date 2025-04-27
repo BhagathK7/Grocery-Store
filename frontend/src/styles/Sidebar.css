@@ -1,0 +1,48 @@
+/* src/styles/Sidebar.css */
+.sidebar {
+    background-color: #ff7f00;
+    color: white;
+    width: 220px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .user-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .user-info p {
+    font-size: 0.9em;
+    color: #f0e3d5;
+  }
+  
+  .sidebar-nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .sidebar-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .sidebar-nav a.active {
+    text-decoration: underline;
+  }
+  
+  .toggle-theme {
+    margin-top: 20px;
+    background-color: white;
+    color: #ff7f00;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  

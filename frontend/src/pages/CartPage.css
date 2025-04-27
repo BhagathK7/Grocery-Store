@@ -1,0 +1,121 @@
+/* frontend/src/pages/CartPage.css */
+
+.cart-page {
+  max-width: 2200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffdf9;
+  border-radius: 12px;
+  font-size: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.cart-page h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #f37254;
+  margin-bottom: 2rem;
+}
+
+.cart-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.cart-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 5rem;
+  max-width: 300px;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.cart-card:hover {
+  transform: translateY(-5px);
+}
+
+.cart-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.cart-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 1.4rem;
+}
+
+.cart-details h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.cart-details p {
+  margin: 0;
+  color: #0d0d0d;
+}
+
+.cart-summary {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #fff7f4;
+  border: 1px solid #f9e2db;
+  border-radius: 12px;
+  text-align: right;
+  font-size: 1.5rem;
+  color: #000000;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.cart-summary h3 {
+  color: #f37254;
+  font-weight: 1000;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.cart-summary p {
+  margin: 0.3rem 0;
+}
+
+.btn-checkout {
+  background-color: #f37254;
+  color: white;
+  border: none;
+  padding: 0.8rem 2.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-checkout:hover {
+  background-color: #d65e44;
+}
+
+@media (max-width: 768px) {
+  .cart-items {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-summary {
+    text-align: center;
+  }
+}

@@ -1,0 +1,53 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: none; /* Initially hidden */
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.open {
+  display: block; /* Display sidebar when open */
+  transform: translateX(0); /* Slide in */
+}
+
+.sidebar-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.sidebar-nav li {
+  margin: 25px 0;
+}
+
+.sidebar-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar-nav a:hover {
+  color: #ff7904;
+}
+
+.sidebar-toggle-btn {
+  position: fixed;
+  top: 17px;
+  left: 20px;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's on top of other elements */
+}

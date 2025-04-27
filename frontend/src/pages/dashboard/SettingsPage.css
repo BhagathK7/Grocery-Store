@@ -1,0 +1,49 @@
+/* src/pages/dashboard/SettingsPage.css */
+.settings-container {
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .settings-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settings-form label {
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  
+  .settings-form input {
+    padding: 8px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .settings-form button {
+    background-color: #f07f0d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .settings-form button:hover {
+    background-color: #f6bf8c;
+  }
+  
