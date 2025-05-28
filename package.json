@@ -1,12 +1,14 @@
 {
+  "name": "your-app-name",
+  "version": "1.0.0",
   "dependencies": {
     "faraday": "^1.12.0"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   }
-},
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
 }
