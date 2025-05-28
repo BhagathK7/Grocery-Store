@@ -20,12 +20,14 @@ const Navbar = () => {
         <Link to="/cart">Cart</Link>
         <Link to="/login">Login</Link>
         <Link to="/signup">Signup</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
 
       <div className="icons">
         <div id="menu-btn" className="fa-solid fa-bars" onClick={toggleMenu}></div>
         <Link to="/cart"><div className="fa-solid fa-shopping-cart"></div></Link>
         <Link to="/login"><div className="fa-solid fa-user"></div></Link>
+        <Link to="/contact"><div className="fa-solid fa-user"></div></Link>
       </div>
     </header>
   );
